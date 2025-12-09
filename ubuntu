@@ -1,0 +1,5 @@
+FROM python
+LABEL Installing python
+MAINTAINER ruana
+WORKDIR  /ruana/devops/
+EXPOSE 5000

@@ -1,0 +1,4 @@
+FROM mysql/mysql-server:5.7
+ENV MYSQL_USER=root
+ENV MYSQL_ROOT_PASSWORD=flm@123
+COPY init.sql docker-entrypoint-initdb.d/db_backup.sql
